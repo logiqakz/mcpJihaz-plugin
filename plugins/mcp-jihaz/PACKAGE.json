@@ -1,6 +1,6 @@
 {
   "name": "mcp-jihaz",
-  "version": "2.13.2",
+  "version": "2.13.3",
   "kitVersion": "2.13.0",
   "endpoint": "https://jihaz-mcp-361817417980.us-central1.run.app/mcp",
   "transport": "streamable-http",
@@ -21,8 +21,8 @@
     "shop-rules"
   ],
   "files": {
-    ".claude-plugin/plugin.json": "ddfc9550b1aea374c622fedc11f0bdbde39221fd2f8bef8ae1f1ad5e126536b3",
-    ".codex-plugin/plugin.json": "2a3c64e1a63d74c46c6115e2741a8ac3bbdb02021c8e5556191f90470665f146",
+    ".claude-plugin/plugin.json": "7ecfdb34fe9bc8cec0d8b4fcc5c8f6d9ac6f0ce540c55ba13b1468a2cad66c18",
+    ".codex-plugin/plugin.json": "aec5e4acecd4f661ea380cb0101f42db8ed4edde7676284fcf310a9bda6125ec",
     ".mcp.json": "4202286cdddc20ab3cb8f94ffe8e500417e16724fadb7c9bc5b95aabe919f07b",
     "AGENTS.md": "4e3d0f885d20c76636f640dbf340e0e51481c30d60d931b038a4f02295052a22",
     "assets/icon.png": "50af7b8da2d58d884725ccd6f4592388f29a4c7d9a82ff4914d335eb8a8b7e0a",
@@ -39,8 +39,8 @@
     "knowledge/ergonomics.md": "2dc0cef5a9b900973a964f28baca63b03dfd85f3fdb8a0ceabebf4c790c29239",
     "knowledge/shop-rules.md": "5564316a292520bc55e864997a07d577712a2a25a40c4e09d12f89893716997b",
     "mcp.json": "4c72bc44c533ddf34fa1d60499ed909ab04f43651217a7e0cccdccb53611daf1",
-    "plugin.json": "6c0b80b46c3e7f2d7f2830e45b10b7f8ae6e87efb151d1fbc927b8167c32b233",
-    "README.md": "043be40700b4d76502aa29b71364c237f2687bdbf90c1b1e0d72adbadf7473e5",
+    "plugin.json": "636d31f3595802cd573b02f6163714e029eedc1fe528ac65e210e6c44c92a792",
+    "README.md": "d85be5ad15cbf044834ca054715763f015ad8d1f9cde4aec88caba1ce1a52fb9",
     "recipes/corner-kitchen.json": "a8f7e0f7569c66d367e6c5a421677ad4b83ad8dde9a0cecb90368e4866c50935",
     "rules/cloud-quickstart.md": "ca213706c4c77be3b1550efc1a4d9ab91b8f4fd74e9249dd51e0811f70ae25d6",
     "rules/identity.md": "cfa17408da25417f780ff3e719f56e201c9dcff508280ed5ccf8cc01fcc0d46b",
