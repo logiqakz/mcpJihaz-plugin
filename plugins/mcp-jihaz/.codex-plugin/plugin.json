@@ -1,0 +1,28 @@
+{
+  "name": "mcp-jihaz",
+  "version": "2.13.2",
+  "description": "Облачный MCP JIHAZ: заказы, мебель, лаборатория, финансы и полный набор навыков агента.",
+  "author": {
+    "name": "JIHAZ.pro"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json",
+  "interface": {
+    "displayName": "mcpJihaz",
+    "shortDescription": "JIHAZ через веб: MCP и навыки",
+    "longDescription": "Облачный MCP JIHAZ: заказы, мебель, лаборатория, финансы и полный набор навыков агента.",
+    "developerName": "JIHAZ.pro",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "defaultPrompt": [
+      "Покажи мои проекты JIHAZ",
+      "Проверь состояние заказа"
+    ],
+    "brandColor": "#FFA829",
+    "composerIcon": "./assets/icon.png",
+    "logo": "./assets/logo.png"
+  }
+}

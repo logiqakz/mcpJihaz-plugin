@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "mcpJihaz": {
+      "type": "streamable-http",
+      "url": "https://jihaz-mcp-361817417980.us-central1.run.app/mcp"
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "name": "mcp-jihaz",
+  "version": "2.13.2",
+  "description": "Облачный MCP JIHAZ: заказы, мебель, лаборатория, финансы и полный набор навыков агента.",
+  "author": {
+    "name": "JIHAZ.pro"
+  },
+  "skills": "./skills/",
+  "mcpServers": "./.mcp.json"
+}
