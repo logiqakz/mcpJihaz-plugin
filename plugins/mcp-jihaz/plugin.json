@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "mcp-jihaz",
-  "version": "2.13.3",
+  "version": "2.14.0",
   "description": "Облачный MCP JIHAZ: заказы, мебель, лаборатория, финансы и полный набор навыков агента.",
   "author": {
     "name": "JIHAZ.pro"
@@ -9,22 +9,32 @@
   "extensions": {
     "com.openai": {
       "interface": {
-        "displayName": "mcpJihaz",
-        "shortDescription": "JIHAZ через веб: MCP и навыки",
-        "longDescription": "Облачный MCP JIHAZ: заказы, мебель, лаборатория, финансы и полный набор навыков агента.",
+        "displayName": "JIHAZ",
+        "shortDescription": "Мебельное производство и 3D",
+        "longDescription": "JIHAZ.WORK — система управления мебельным производством. Плагин подключает вашего ассистента к вашим проектам: заказы, замеры, дизайн, деталировка, закуп, финансы и переписка.\n\nЧто умеет: построить кухню или шкаф по описанию и показать 3D прямо в чате; посчитать смету по правилам компании; собрать карту раскроя, деталировку, присадку и программу для станка; проверить заказ перед производством; найти материалы и фурнитуру в базе; вести закуп, платежи и задачи.\n\nАссистент видит только проекты вашего аккаунта JIHAZ. Записи требуют явного намерения, удаления проектов и позиций нет. Нужен аккаунт JIHAZ.WORK.",
         "developerName": "JIHAZ.pro",
-        "category": "Productivity",
+        "category": "Business & Operations",
         "capabilities": [
           "Read",
-          "Write"
+          "Write",
+          "Interactive"
         ],
         "defaultPrompt": [
-          "Покажи мои проекты JIHAZ",
-          "Проверь состояние заказа"
+          "Нарисуй кухню 3 метра с мойкой и покажи 3D",
+          "Собери шкаф 2400 на 2200 с ящиками и покажи 3D"
         ],
-        "brandColor": "#FFA829",
+        "brandColor": "#FFA000",
+        "brandColorDark": "#FFA829",
+        "websiteURL": "https://jihaz.pro",
+        "supportURL": "https://work.jihaz.pro/support",
+        "privacyPolicyURL": "https://work.jihaz.pro/privacy",
+        "termsOfServiceURL": "https://work.jihaz.pro/terms",
         "composerIcon": "./assets/icon.png",
-        "logo": "./assets/logo.png"
+        "logo": "./assets/logo.png",
+        "screenshots": [
+          "./assets/screenshots/01-kitchen.png",
+          "./assets/screenshots/02-wardrobe.png"
+        ]
       }
     }
   }

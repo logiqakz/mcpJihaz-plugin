@@ -8,12 +8,14 @@
 
 ## ChatGPT
 
-1. Включите **Settings → Security and login → Developer mode** (зависит от тарифа и политики воркспейса).
-2. Откройте **Plugins → «Новый плагин»**, перетащите скачанный ZIP и нажмите **«Добавить плагин»**.
-3. В новом чате выберите `@mcpJihaz` и войдите в JIHAZ при первом запросе.
-4. Дайте агенту задачу: «Прочитай `rules/cloud-quickstart.md`, затем нужный скилл и покажи мои проекты».
+MCP в ChatGPT подключается как **приложение**, а не из архива: плагин с `mcp.json` в вебе помечается «Desktop only».
 
-Плагин после загрузки личный: каждый пользователь загружает архив сам, по ссылке на карточку он не передаётся. Установка одной кнопкой для всех появится только после публикации в каталоге OpenAI.
+1. Settings → **Apps** → Advanced settings → **Developer mode** (Business: только админ; Pro: только чтение; Free/Plus/Go: недоступно).
+2. Settings → **Apps** → **Create**, адрес сервера выше, Scan Tools, Create. Админ Business публикует приложение на пространство.
+3. Скиллы для пространства: Workspace settings → Plugins → Add → **Import marketplace** → `https://github.com/logiqakz/mcpJihaz-plugin`, либо Admin → Plugins → Upload plugin с этим ZIP.
+4. В чате выберите приложение через `@` и войдите в JIHAZ при первом запросе.
+
+Установка одной кнопкой для всех появится после публикации в каталоге OpenAI.
 
 ## Codex Desktop
 
